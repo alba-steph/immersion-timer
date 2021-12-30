@@ -1,4 +1,92 @@
+#root {
+  --coral: #e08570;
+  --rose: #da5e5e;
+  --vanilla: #f2d1ae;
+  --sage: #b3bc83;
+  --sand: #d4beb0;
+}
+
 .App {
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#time-left {
+  font-size: 10vmin;
+}
+
+.logo {
+  height: 2vmin;
+  margin-bottom: -0.5vmin;
+}
+
+.resources {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 1vmin;
+}
+
+/* styles below this line are CSS Reset by Josh Comeau */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* styles below this line is default create-react-app css */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +123,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
